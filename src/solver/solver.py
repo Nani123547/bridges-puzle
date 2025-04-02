@@ -1,6 +1,7 @@
 # solver.py
 
 def solve_puzzle(puzzle):
+<<<<<<< HEAD
     """
     Stub solver function.
     Implement a backtracking/constraint propagation algorithm here.
@@ -12,6 +13,14 @@ def solve_puzzle(puzzle):
 
 if __name__ == "__main__":
     # Example usage for testing the solver
+=======
+    
+    print("Solver: Starting to solve the puzzle...")
+    # TODO: full backtracking and constraint propagation algorithm.
+    return False
+
+if __name__ == "__main__":
+>>>>>>> 147f787 (Updated project with latest code files)
     from src.models.puzzle import Puzzle
     p = Puzzle(5, 5)
     p.add_island(1, 1, 2)

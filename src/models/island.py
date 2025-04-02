@@ -6,7 +6,11 @@ class Island:
         self.col = col
         self.required_bridges = required_bridges
         self.current_bridges = 0
+<<<<<<< HEAD
         self.bridges = []  # List to store connected Bridge objects
+=======
+        self.bridges = []
+>>>>>>> 147f787 (Updated project with latest code files)
 
     def add_bridge(self, bridge):
         self.bridges.append(bridge)
